@@ -1,0 +1,11 @@
+Gemfile.lock
+*~
+_site/
+.jekyll-metadata
+.sass-cache/
+.tool-versions
+# ignore build outputs
+test/
+public/
+# ignore vscode local settings
+.vscode/

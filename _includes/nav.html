@@ -1,0 +1,84 @@
+<header>
+  <nav class="primary">
+    <ul>
+      <li><a href="https://joe733.gitlab.io/blog" class="logomark" target="_self">
+        {% include svg/q_thoughts.svg %}
+      </a></li>
+
+      <li><a href="https://joe733.gitlab.io/blog" target="_self">Intriguing Insights</a></li>
+      <!-- <li><a href="https://developer.elementary.io" target="_self">Developer</a><</li>
+      <li><a href="https://elementary.io/get-involved" target="_self">Get Involved</a></li>
+      <li><a href="https://store.elementary.io" target="_self">Store</a></li>
+      <li><a href="{{ site.baseurl }}/">Blog</a></li> -->
+    </ul>
+
+    <ul>
+      <li><a href="{{ site.baseurl }}/feed.xml" title="RSS Feed">
+        {% include svg/rss-square.svg %}
+      </a></li>
+
+      <!-- <li><a href="https://gitlab.com/joe733" target="_blank" rel="noopener" title="GitLab">
+        {% include svg/gitlab.svg %}
+      </a></li> -->
+
+      <!-- <li><a href="https://stackexchange.com/users/12074372/joe?tab=accounts" target="_blank" rel="noopener" title="StackExchange">
+        {% include svg/stack-exchange.svg %}
+      </a></li>
+
+      <li><a href="https://github.com/joe733" target="_blank" rel="noopener" title="GitHub">
+        {% include svg/github.svg %}
+      </a></li> -->
+
+      <!-- <li><a href="https://nitter.net/_joe733" target="_blank" rel="noopener" title="Twitter">
+        {% include svg/twitter.svg %}
+      </a></li> -->
+
+      <!-- <li><a href="https://piped.kavin.rocks/channel/UCJOSlWFAgbU1MQJVj0EkEVA" target="_blank" rel="noopener" title="Youtube">
+        {% include svg/youtube.svg %}
+      </a></li> -->
+
+      <!-- <li><a href="https://libreddit.spike.codes/user/joe_733" target="_blank" rel="noopener" title="Reddit">
+        {% include svg/reddit.svg %}
+      </a></li>
+
+      <li><a href="https://www.facebook.com/jovialjoejayarson" target="_blank" rel="noopener" title="Facebook">
+        {% include svg/facebook.svg %}
+      </a></li> -->
+    </ul>
+  </nav>
+  <nav class="secondary">
+    <div>
+      <a href="#">Tags :</a>
+      <a href="{{ site.baseurl }}/tags/#linux">Linux</a>
+      <a href="{{ site.baseurl }}/tags/#programming">Programming</a>
+      <a href="{{ site.baseurl }}/tags/#ai-ml">AI/ML</a>
+      <a href="{{ site.baseurl }}/tags/#design">Design</a>
+    </div>
+
+    <div id="search-container" class="hidden">
+      {% include svg/edit-find-symbolic.svg %}
+      <input type="text" id="search-input" placeholder="Search Posts…">
+      <ul id="results-container"></ul>
+    </div>
+
+    <script src="https://joe733.gitlab.io/blog/scripts/search.js"></script>
+
+    <script>
+      document.getElementById('search-container').classList.remove("hidden")
+
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        searchResultTemplate: `<li>
+          <a href="{url}">
+            <div class="featured-image" alt="Featured image" style="background-image: url({image});"></div>
+            <span id="title">{title}</span>
+            <span id="description">{description}</span>
+          </a>
+        </li>`,
+        resultsContainer: document.getElementById('results-container'),
+        noResultsText: ("No Result Found"),
+        json: 'https://joe733.gitlab.io/blog/search.json'
+      })
+    </script>
+  </nav>
+</header>
