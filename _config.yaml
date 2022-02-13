@@ -1,7 +1,7 @@
 title: "Intriguing Insights"
-description: "..."
+description: "The secret of joy in work is contained in one word - Excellence. To know how to do something well is to enjoy it."
 
-url: https://jasonchaser.gitlab.io
+url: https://jasonchaser.github.io
 baseurl: /blog
 permalink: /:title/
 theme-color: "#1678F7"
@@ -16,8 +16,8 @@ gravatar: a94f31334f44cecf15ce96f8e996fffb
 
 authors:
   jasonchaser:
-    name: "Bejoy Jayarson"
-    description: "..."
+    name: "Buck Wild"
+    description: "Jack of all trades, master of some?"
     gravatar: a94f31334f44cecf15ce96f8e996fffb # Gravatar md5 hash
 
   anonymous:

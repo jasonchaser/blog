@@ -17,6 +17,6 @@ It's not an easy job, but if you are up for the challenge, you might lose friend
 
 Thanking you
 
-Yours sincerely 
+Yours sincerely
 
 A concerned citizen.
